@@ -42,4 +42,21 @@ ul {
 .navbar .navbar-collapse {
   flex-grow: 0;
 }
+
+#hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10em 0 30em;
+}
+
+#hero h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
