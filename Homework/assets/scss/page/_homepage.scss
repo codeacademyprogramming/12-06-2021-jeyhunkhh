@@ -79,7 +79,10 @@
           height: 95%;
           width: 100%;
           background-color: #fffefec9;
-          
+          &.active{
+            visibility: visible;
+            opacity: 1;
+          }
       }
     }
   }
@@ -111,6 +114,7 @@
     }
     .cart-content{
         visibility: hidden;
+        opacity: 0;
         border: 2px solid #eceef6;
         background-color: $white-color;
         border-radius: 5px;
@@ -123,6 +127,10 @@
                 width: 70px;
                 height: 70px;
             }
+        }
+        &.active{
+          visibility: visible;
+          opacity: 1;
         }
     }
   }

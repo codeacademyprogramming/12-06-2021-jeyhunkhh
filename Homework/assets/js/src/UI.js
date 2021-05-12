@@ -16,7 +16,7 @@ export class UI {
                     item.price
                   } $</span>
                   <div class="add-basket">
-                    <button><i class="fas fa-shopping-bag"></i></button>
+                    <button type="button"><i class="fas fa-shopping-bag"></i></button>
                   </div>
                 </div>
                 <div class="size">
