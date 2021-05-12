@@ -23,3 +23,9 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+.btn-orange{
+    background: linear-gradient(116.88deg, #FE3326 -4.28%, #F26E0E 112.69%),
+    linear-gradient(0deg, #59AAF1, #59AAF1);    
+    color: $white-color;        
+  }

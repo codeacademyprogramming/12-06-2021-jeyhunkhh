@@ -25,6 +25,11 @@ h6 {
   font-weight: 700;
 }
 
+.btn-orange {
+  background: linear-gradient(116.88deg, #FE3326 -4.28%, #F26E0E 112.69%), linear-gradient(0deg, #59AAF1, #59AAF1);
+  color: #FFFFFF;
+}
+
 .navbar {
   position: absolute;
   left: 0px;
@@ -52,6 +57,27 @@ h6 {
   flex-grow: 0;
 }
 
+#contact {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em 0em 15em;
+}
+
+#contact h2 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+#contact form input {
+  padding: 10px 20px;
+  border: none;
+}
+
+#contact form .btn-orange {
+  padding: 10px 50px;
+}
+
 #hero {
   background-position: center;
   background-repeat: no-repeat;
@@ -67,6 +93,10 @@ h6 {
 
 #hero p {
   font-size: 20px;
+}
+
+#popular-products {
+  padding-bottom: 100px;
 }
 
 #popular-products .container {
@@ -140,11 +170,6 @@ h6 {
   height: 95%;
   width: 100%;
   background-color: #fffefec9;
-}
-
-#popular-products .product .card .size .btn-orange {
-  background: linear-gradient(116.88deg, #FE3326 -4.28%, #F26E0E 112.69%), linear-gradient(0deg, #59AAF1, #59AAF1);
-  color: #FFFFFF;
 }
 
 #popular-products .cart {
