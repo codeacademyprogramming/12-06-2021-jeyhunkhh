@@ -16,6 +16,15 @@ ul {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
 .navbar {
   position: absolute;
   left: 0px;
@@ -47,7 +56,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10em 0 30em;
+  padding: 11em 0 30em;
 }
 
 #hero h1 {
@@ -58,5 +67,128 @@ ul {
 
 #hero p {
   font-size: 20px;
+}
+
+#popular-products .container {
+  position: relative;
+}
+
+#popular-products .header h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#popular-products .product .card {
+  border: 2px solid #eceef6;
+  position: relative;
+}
+
+#popular-products .product .card p {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+#popular-products .product .card .price {
+  font-size: 24px;
+}
+
+#popular-products .product .card .add-basket {
+  position: absolute;
+  left: 38%;
+  bottom: -32px;
+  transform: translate(-50%, -50%);
+  border-left: 2px solid #eceef6;
+  border-bottom: 2px solid #eceef6;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  transform: rotate(-45deg);
+  background-color: white;
+}
+
+#popular-products .product .card .add-basket button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  border: 2px solid #eceef6;
+  background-color: #FFFFFF;
+  transform: rotate(45deg);
+  z-index: 0;
+  transition: all 0.5s;
+}
+
+#popular-products .product .card .add-basket button:hover {
+  background-color: #fe5626;
+}
+
+#popular-products .product .card .add-basket button:hover i {
+  color: #FFFFFF;
+}
+
+#popular-products .product .card .add-basket button i {
+  color: #fe5626;
+}
+
+#popular-products .product .card .size {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 40px 20px;
+  height: 95%;
+  width: 100%;
+  background-color: #fffefec9;
+}
+
+#popular-products .product .card .size .btn-orange {
+  background: linear-gradient(116.88deg, #FE3326 -4.28%, #F26E0E 112.69%), linear-gradient(0deg, #59AAF1, #59AAF1);
+  color: #FFFFFF;
+}
+
+#popular-products .cart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#popular-products .cart .basket-icon button {
+  box-shadow: 0 0 5px 0px #d4d4d4;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  border: 2px solid #eceef6;
+  background-color: #FFFFFF;
+  z-index: 0;
+  transition: all 0.5s;
+}
+
+#popular-products .cart .basket-icon button:hover {
+  background-color: #fe5626;
+}
+
+#popular-products .cart .basket-icon button:hover i {
+  color: #FFFFFF;
+}
+
+#popular-products .cart .basket-icon button i {
+  color: #fe5626;
+}
+
+#popular-products .cart .cart-content {
+  visibility: hidden;
+  border: 2px solid #eceef6;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#popular-products .cart .cart-content .cart-item .image {
+  width: 70px;
+  height: 70px;
 }
 /*# sourceMappingURL=style.css.map */
